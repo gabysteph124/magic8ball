@@ -20,4 +20,5 @@ answers = ["As I see it, yes.",
              "Yes.",
              "Yes – definitely.",
              "You may rely on it."]
-print(random.choice(answers))
+if __name__ == "__main__":
+    print(random.choice(answers))
